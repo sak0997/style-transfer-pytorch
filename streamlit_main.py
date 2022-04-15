@@ -63,7 +63,7 @@ if upload_img is not None:
 
     if st.button('Create Style Transfer Image'):
         os.system(os_cmd)
-        st.image(output_image_path, caption='Output', use_column_width=True)
+  
     else:
         st.write('click button to run model')
 
